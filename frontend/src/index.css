@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background: #000;
+    color: #fff;
+}
+.offscreen {
+    display: none;
+}
+.public {
+    padding: 20px 0;
+}
+header {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 15px;
+}
+header h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.navbar>.container {
+    background: rgba(26, 26, 26, 1.0) !important;
+}
+.navbar-brand h1 {
+    background: rgba(26, 26, 26, 1.0); 
+}
+footer {
+    width: 97.5%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.owner {
+    margin-top: -20px;
+}
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.dashHeader {
+    padding-left: 10px;
+    padding-bottom: -5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(26, 26, 26, 1.0)
+}
+.dashHeader-title,
+.dash-footer,
+.dash-footer p {
+    background: rgba(26, 26, 26, 1.0)
+}
+.dashHeader h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.dash-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    margin-bottom: 0;
+    white-space: nowrap;
+    padding-left: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.dash-footer p {
+    font-size: 15px;
+    margin-right: 20px;
+}
+.welcome h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.welcome p {
+    list-style-type: square;
+}
+.bi-arrow-right {
+    margin-right: 5px;
+    font-size: 18px;
+}
+.footer-button {
+    background: transparent;
+    border: none;
+    line-height: 0;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.footer-button svg {
+    background: transparent;
+}
+button.table-button  {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 10px;
+    --bs-btn-active-bg: transparent;
+}
+.table-button svg {
+    background: transparent;
+    font-size: 20px; 
+}
+.table-button svg:hover {
+    font-size: 22px;
+}
+button.table-button:hover {
+    background: transparent;
+}
+.table-button i {
+    background: transparent;
+}
+td span {
+    background: transparent;
+}
+span.complete {
+    color: green;
+}
+.form-title {
+    position: relative;
+    display: flex;
+}
+.form-title .button-div {
+   position: absolute;
+   right: 0px;
+}
+.form-title button {
+    margin-left: 10px;
+    padding: 0;
+    line-height: 0;
+    background: transparent;
+    font-size: 30px;
+    border: none;
+    --bs-btn-active-border-color: transparent;
+}
+.password-group {
+    margin-top: 10px;
+}
+.check {
+    margin-top: 10px;
+}
+.form-check-input {
+    margin-left: 10px;
+}
+select.form-select[multiple] {
+    padding-right: 5px;
+}
+select.form-select {
+    width: auto;
+    padding: 5px;
+    background-color: inherit;
+    margin-bottom: 100px;
+}
+button.icon-button[disabled] {
+    display: none;
+}
+.editNote .form-label {
+    margin-top: 10px;
+}
+#note-completed {
+    margin-top: 15px;
+}
+.editNote .form-select {
+    background-color: #fff;
+    width: 100px;
+}
+.form-stats {
+    margin-top: 10px;
+}
+footer.backHome {
+    width: 79%;
+}
+.login-password {
+    margin-top: 10px;
+}
+.public button {
+    width: 100%;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+}
+button.icon-button {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+div.dashHeader-nav  {
+    background: rgba(26, 26, 26, 1.0);
+}
+.dashHeader-nav button {
+    margin-right: 40px;
+}
+div.navbar-collapse {
+    justify-content: flex-end;
+    background: rgba(26, 26, 26, 1.0);
+}
+.dashHeader-nav svg {
+    background: rgba(26, 26, 26, 1.0);
+}
