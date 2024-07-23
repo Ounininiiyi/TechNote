@@ -1,7 +1,5 @@
 const allowedOrigins = [
-	'http://localhost:3000',
-	'https://techNoteApp.web.app',
-	'https://www.techNoteApp.web.app'
+	'https://tech-note.vercel.app'
 ]
 
 
