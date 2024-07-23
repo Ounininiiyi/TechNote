@@ -4,7 +4,7 @@ const router = express.Router()
 const usersController = require('../controllers/usersController')
 const verifyJWT = require('../middlewares/verifyJWT')
 
-router.use(verifyJWT)
+// router.use(verifyJWT)
 
 router.route('/')
 	// GET

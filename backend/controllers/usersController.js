@@ -39,7 +39,7 @@ const createNewUser = asyncHandler(async(req, res) => {
 
 	//create and store new user
 	const user = await User.create(userObject)
-	if (user) {//created
+	if (user) { //created
 		res.status(201).json({message: `New user ${username} created`})
 	} else {
 		res.status(400).json({message: 'Invalid user date received'})
